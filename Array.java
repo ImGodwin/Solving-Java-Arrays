@@ -1,5 +1,8 @@
 import java.util.Arrays;
 
+
+
+
 public class Array {
     public static void main(String[] args)
     {
@@ -73,22 +76,48 @@ public class Array {
         //------------------------------------------
         /*4. Write a Java program to calculate the average value of array elements.*/
 
-        int[] arr2 = {4, 3, 7, 1, 6, 11, 2, 34, 9, 2};
+        /*int[] arr2 = {4, 3, 7, 1, 6, 11, 2, 34, 9, 2};
 
         int sum = 0;
-        /*for (int i = 0; i<arr2.length; i++)
+       for (int i = 0; i<arr2.length; i++)
         {
             sum += arr2[i];
-        }*/
+        }
 
-        /*for (int i : arr2)
+        for (int i : arr2)
         {
             sum = sum + i;
+        }
+
+        System.out.println(sum);*/
+
+        //-----------------------------------
+
+        //5. Write a Java program to test if an array contains a specific value.
+
+        int[] arr2 = {4, 3, 7, 1, 6, 11, 2, 34, 9, 2};
+        int num = 11;
+        /*for (int i : arr2)
+        {
+            if (i == num)
+            {
+                System.out.println(i);
+            }
         }*/
 
-        System.out.println(sum);
 
+        //the for loop prints the index of the element
+        /*for (int i = 0; i < arr2.length; i++)
+        {
+            if(arr2[i] == num)
+            {
+                System.out.println("this index of: " + num + " is " + i);
+
+            }
+        }*/
 
 
     }
+
+
 }
