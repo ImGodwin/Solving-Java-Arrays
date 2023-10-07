@@ -58,6 +58,8 @@ public class Array {
             System.out.println(sum);
         }*/
 
+
+        //------------------------------------------
         //3. Write a Java program to print the following grid.
 
         /*String dash = "- - - - - - - - - - ";
@@ -67,6 +69,26 @@ public class Array {
         {
             System.out.println(dash);
         }*/
+
+        //------------------------------------------
+        /*4. Write a Java program to calculate the average value of array elements.*/
+
+        int[] arr2 = {4, 3, 7, 1, 6, 11, 2, 34, 9, 2};
+
+        int sum = 0;
+        /*for (int i = 0; i<arr2.length; i++)
+        {
+            sum += arr2[i];
+        }*/
+
+        /*for (int i : arr2)
+        {
+            sum = sum + i;
+        }*/
+
+        System.out.println(sum);
+
+
 
     }
 }
